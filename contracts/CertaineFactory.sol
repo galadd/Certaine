@@ -5,7 +5,7 @@ pragma solidity >=0.7.0 <0.9.0;
 import "./CertaineERC721.sol";
 import "./CertaineMember.sol";
 
-contract CertaineFactory {
+contract CertaineFactory is CertaineMember {
 
     CertaineERC721[] public certificates;
 
@@ -18,6 +18,6 @@ contract CertaineFactory {
             _certificateName,
             _symbol
         );
-        certificate.createCertificate(tokenUri);
+        certificate.createCertificate(_tokenUri);
     }
 }
