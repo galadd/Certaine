@@ -2,7 +2,6 @@
 
 **A Polygon project to help Organisations and Education institutions alike to emit their certificates as NTFs on Polygon Blockchain very easily and cheap.**
 
-Basically, a "Decentralized Patreon"
 
 ### Value Proposition
 
